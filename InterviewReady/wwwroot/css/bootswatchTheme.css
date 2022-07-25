@@ -6352,11 +6352,12 @@ fieldset:disabled .btn {
     flex-direction: column;
     width: 100%;
     pointer-events: auto;
-    background-color: #222;
+    background-color: #f1eded;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 0.3rem;
     outline: 0;
+    color: #011209;
 }
 
 .modal-backdrop {
@@ -6400,6 +6401,7 @@ fieldset:disabled .btn {
 .modal-title {
     margin-bottom: 0;
     line-height: 1.5;
+    color:black;
 }
 
 .modal-body {

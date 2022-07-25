@@ -91,7 +91,9 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title">Login</h3>
+                <h4 class="modal-title">Login</h4>
+                <button class="close" onclick="$('#myModal').hide()" data-dismiss="modal" aria-label="Close">           <span aria-hidden="true">&times;</span>
+</button>
             </div>
             <div class="modal-body">
                 <form role="form" method="POST" action="">
@@ -125,7 +127,7 @@
                         </div>
                     </div>
                 </form>
-                <h1>Or Signup!</h1>
+                <h4 class="modal-title">Or Signup!</h4>
                 <form role="form" method="POST" action="">
                     <input type="hidden" name="_token" value="">
                     <div class="form-group">

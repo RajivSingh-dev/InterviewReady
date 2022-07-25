@@ -70,3 +70,8 @@ body {
 .modal-body{
     margin-top:5px;
 }
+
+.modal-header {
+    background-color: white;
+    color: black;
+}
