@@ -5420,7 +5420,7 @@ textarea.form-control-lg {
   outline: 0;
 }
 
-.modal-dialog {
+.modal-dialog { 
   position: relative;
   width: auto;
   margin: 0.5rem;
